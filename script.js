@@ -8,7 +8,6 @@
     document.querySelectorAll('[data-' + lang + ']').forEach(function (el) {
       const value = el.getAttribute('data-' + lang);
       if (value) {
-        // innerHTML em vez de textContent — permite <span>, <br/>, <strong> nos data-*
         el.innerHTML = value;
       }
     });
