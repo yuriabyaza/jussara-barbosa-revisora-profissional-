@@ -1,14 +1,15 @@
-// ========== TRADUÇÃO MANUAL ==========
+// ========== TRADUÇÃO MANUAL (PT / EN / ES / IT) ==========
 (function () {
   const langButtons = document.querySelectorAll('.lang-switch button');
-  const defaultLang = 'pt';
+  const langs = ['pt', 'en', 'es', 'it'];
 
   function setLanguage(lang) {
     document.documentElement.setAttribute('lang', lang === 'pt' ? 'pt-BR' : lang);
     document.querySelectorAll('[data-' + lang + ']').forEach(function (el) {
       const value = el.getAttribute('data-' + lang);
       if (value) {
-        el.textContent = value;
+        // innerHTML em vez de textContent — permite <span>, <br/>, <strong> nos data-*
+        el.innerHTML = value;
       }
     });
     langButtons.forEach(function (b) {
@@ -23,30 +24,27 @@
     });
   });
 
-  // Carrega preferência salva
   try {
     const saved = localStorage.getItem('lang');
-    if (saved && ['pt', 'en', 'es', 'it'].indexOf(saved) !== -1) {
-      setLanguage(saved);
-    }
+    if (saved && langs.indexOf(saved) !== -1) setLanguage(saved);
   } catch (e) {}
-})();
-
-// ========== MENU MOBILE ==========
-(function () {
-  const toggle = document.getElementById('menuToggle');
-  const nav = document.getElementById('nav');
-  if (!toggle || !nav) return;
-  toggle.addEventListener('click', function () {
-    nav.classList.toggle('open');
-  });
-  nav.querySelectorAll('a').forEach(function (a) {
-    a.addEventListener('click', function () { nav.classList.remove('open'); });
-  });
 })();
 
 // ========== ANO NO FOOTER ==========
 (function () {
   const yearEl = document.getElementById('year');
   if (yearEl) yearEl.textContent = new Date().getFullYear();
+})();
+
+// ========== SMOOTH SCROLL (links internos) ==========
+(function () {
+  document.querySelectorAll('a[href^="#"]').forEach(function (a) {
+    a.addEventListener('click', function (e) {
+      const target = document.querySelector(a.getAttribute('href'));
+      if (target) {
+        e.preventDefault();
+        target.scrollIntoView({ behavior: 'smooth', block: 'start' });
+      }
+    });
+  });
 })();
