@@ -14,9 +14,6 @@
 <meta property="og:title" content="Professora Jussara Soares — Alta Consultoria Textual" />
 <meta property="og:description" content="Seu texto aprovado com louvor. Sua redação nota máxima. Sua escrita destravada. 20 anos de excelência." />
 <meta property="og:locale" content="pt_BR" />
-<meta property="og:locale:alternate" content="en_US" />
-<meta property="og:locale:alternate" content="es_ES" />
-<meta property="og:locale:alternate" content="it_IT" />
 
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -60,7 +57,7 @@
       "honorificPrefix": "Professora",
       "jobTitle": "Revisora de Textos e Professora de Língua Portuguesa",
       "alumniOf": { "@type": "CollegeOrUniversity", "name": "Universidade Federal de Ouro Preto (UFOP)" },
-      "knowsLanguage": ["pt-BR", "en", "es", "it"],
+      "knowsLanguage": ["pt-BR"],
       "address": { "@type": "PostalAddress", "addressLocality": "Belo Horizonte", "addressRegion": "MG", "addressCountry": "BR" },
       "areaServed": "Worldwide"
     },
@@ -125,13 +122,6 @@
     border-color: transparent;
     transform: translateY(-2px);
   }
-  .lang-switch button {
-    transition: all 0.2s ease;
-  }
-  .lang-switch button.active {
-    background: linear-gradient(135deg, #f3e5ab 0%, #d4af37 100%);
-    color: #0c0a10;
-  }
   .back-to-top-btn:hover .back-to-top-ring {
     background: linear-gradient(135deg, #f3e5ab 0%, #d4af37 50%, #aa8c2c 100%);
     border-color: transparent;
@@ -156,7 +146,7 @@
   <!-- BARRA DE ESCASSEZ / URGÊNCIA -->
   <div class="bg-luxury-900 border-b border-luxury-gold/20 py-2.5 px-4 text-center text-xs md:text-sm tracking-widest uppercase text-luxury-goldLight font-medium">
     <span class="inline-block w-2 h-2 rounded-full bg-luxury-gold animate-pulse mr-2"></span>
-    <span data-pt="Agenda de Mentorias e Revisões Abertas — Vagas Limitadas para este Ciclo" data-en="Mentoring and Editing slots open — Limited spots for this cycle" data-es="Agenda de Mentorías y Revisiones Abierta — Plazas Limitadas este Ciclo" data-it="Agenda di Mentoraggio e Revisioni Aperta — Posti Limitati per questo Ciclo">Agenda de Mentorias e Revisões Abertas — Vagas Limitadas para este Ciclo</span>
+    <span>Agenda de Mentorias e Revisões Abertas — Vagas Limitadas para este Ciclo</span>
   </div>
 
   <!-- HEADER -->
@@ -168,27 +158,20 @@
         </div>
         <div class="hidden sm:flex flex-col">
           <span class="font-serif text-lg tracking-wide font-bold text-white">Jussara Soares</span>
-          <span class="text-[10px] tracking-widest uppercase text-luxury-gold" data-pt="Alta Consultoria Textual" data-en="Premium Text Advisory" data-es="Alta Consultoría Textual" data-it="Alta Consulenza Testuale">Alta Consultoria Textual</span>
+          <span class="text-[10px] tracking-widest uppercase text-luxury-gold">Alta Consultoria Textual</span>
         </div>
       </a>
 
       <div class="hidden lg:flex items-center gap-8 text-sm font-medium text-slate-300">
-        <a href="#solucao" class="hover:text-luxury-gold transition-colors" data-pt="Método" data-en="Method" data-es="Método" data-it="Metodo">Método</a>
-        <a href="#servicos" class="hover:text-luxury-gold transition-colors" data-pt="Serviços" data-en="Services" data-es="Servicios" data-it="Servizi">Serviços</a>
-        <a href="#depoimentos" class="hover:text-luxury-gold transition-colors" data-pt="Depoimentos" data-en="Reviews" data-es="Testimonios" data-it="Testimonianze">Depoimentos</a>
-        <a href="#autoridade" class="hover:text-luxury-gold transition-colors" data-pt="A Professora" data-en="The Teacher" data-es="La Profesora" data-it="La Professoressa">A Professora</a>
-        <a href="#faq" class="hover:text-luxury-gold transition-colors" data-pt="Dúvidas" data-en="FAQ" data-es="Dudas" data-it="Domande">Dúvidas</a>
+        <a href="#solucao" class="hover:text-luxury-gold transition-colors">Método</a>
+        <a href="#servicos" class="hover:text-luxury-gold transition-colors">Serviços</a>
+        <a href="#depoimentos" class="hover:text-luxury-gold transition-colors">Depoimentos</a>
+        <a href="#autoridade" class="hover:text-luxury-gold transition-colors">A Professora</a>
+        <a href="#faq" class="hover:text-luxury-gold transition-colors">Dúvidas</a>
       </div>
 
       <div class="flex items-center gap-3 flex-shrink-0">
-        <div class="lang-switch flex gap-1 border border-luxury-gold/25 rounded-full p-1 bg-luxury-900/60">
-          <button data-lang="pt" class="active text-[10px] font-bold tracking-wider uppercase px-2.5 py-1 rounded-full text-luxury-goldLight/70">PT</button>
-          <button data-lang="en" class="text-[10px] font-bold tracking-wider uppercase px-2.5 py-1 rounded-full text-luxury-goldLight/70">EN</button>
-          <button data-lang="es" class="text-[10px] font-bold tracking-wider uppercase px-2.5 py-1 rounded-full text-luxury-goldLight/70">ES</button>
-          <button data-lang="it" class="text-[10px] font-bold tracking-wider uppercase px-2.5 py-1 rounded-full text-luxury-goldLight/70">IT</button>
-        </div>
-
-        <a href="https://wa.me/5533998617717?text=Ol%C3%A1%20Professora%20Jussara,%20gostaria%20de%20um%20or%C3%A7amento%20exclusivo." target="_blank" rel="noopener" class="hidden sm:inline-flex items-center justify-center px-5 py-2.5 rounded-full text-xs font-bold tracking-wider uppercase gold-btn" data-pt="Solicitar Vaga" data-en="Request Spot" data-es="Solicitar Plaza" data-it="Richiedi Posto">
+        <a href="https://wa.me/5533998617717?text=Ol%C3%A1%20Professora%20Jussara,%20gostaria%20de%20um%20or%C3%A7amento%20exclusivo." target="_blank" rel="noopener" class="hidden sm:inline-flex items-center justify-center px-5 py-2.5 rounded-full text-xs font-bold tracking-wider uppercase gold-btn">
           Solicitar Vaga
         </a>
       </div>
@@ -202,7 +185,7 @@
 
     <div class="max-w-5xl mx-auto px-6 relative z-10 text-center">
       <div class="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-luxury-800 border border-luxury-gold/30 text-luxury-gold text-xs font-semibold tracking-widest uppercase mb-8 shadow-lg">
-        <span data-pt="✨ 20 Anos Transformando Escritas e Carreiras" data-en="✨ 20 Years Transforming Writing and Careers" data-es="✨ 20 Años Transformando Escritos y Carreras" data-it="✨ 20 Anni Trasformando Scritti e Carriere">✨ 20 Anos Transformando Escritas e Carreiras</span>
+        <span>✨ 20 Anos Transformando Escritas e Carreiras</span>
       </div>
 
       <h1 class="font-serif text-4xl sm:text-6xl md:text-7xl font-bold tracking-tight leading-[1.1] mb-8">
@@ -211,37 +194,33 @@
         Sua escrita, finalmente <span class="gold-gradient-text italic">destravada</span>.
       </h1>
 
-      <p class="text-lg sm:text-xl text-slate-300 max-w-3xl mx-auto font-light leading-relaxed mb-12"
-         data-pt="Revisão acadêmica cirúrgica para TCCs, Dissertações e Teses. Aulas particulares de Língua Portuguesa e mentorias exclusivas com quem realmente entende do assunto."
-         data-en="Surgical academic editing for theses, dissertations and final papers. Private Portuguese lessons and exclusive mentoring with someone who truly knows the craft."
-         data-es="Revisión académica quirúrgica para tesinas, tesis de maestría y doctorado. Clases particulares de Lengua Portuguesa y mentorías exclusivas con quien realmente entiende del tema."
-         data-it="Revisione accademica chirurgica per tesi triennali, magistrali e dottorali. Lezioni private di Lingua Portoghese e mentoraggio esclusivo con chi conosce davvero la materia.">
+      <p class="text-lg sm:text-xl text-slate-300 max-w-3xl mx-auto font-light leading-relaxed mb-12">
         Revisão acadêmica cirúrgica para TCCs, Dissertações e Teses. Aulas particulares de Língua Portuguesa e mentorias exclusivas com quem realmente entende do assunto.
       </p>
 
       <div class="flex flex-col sm:flex-row items-center justify-center gap-4 mb-14">
         <a href="https://wa.me/5533998617717?text=Ol%C3%A1%20Professora%20Jussara,%20quero%20garantir%20meu%20atendimento%20exclusivo." target="_blank" rel="noopener" class="w-full sm:w-auto px-8 py-4 rounded-xl font-bold text-sm tracking-wider uppercase gold-btn flex items-center justify-center gap-3 shadow-2xl">
           <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24"><path d="M19.05 4.91A9.82 9.82 0 0 0 12.04 2c-5.46 0-9.91 4.45-9.91 9.91 0 1.75.46 3.45 1.32 4.95L2.05 22l5.25-1.38a9.9 9.9 0 0 0 4.74 1.21h.01c5.46 0 9.91-4.45 9.91-9.91 0-2.65-1.03-5.14-2.91-7.01z"/></svg>
-          <span data-pt="Garantir Atendimento Personalizado" data-en="Secure Personalized Service" data-es="Asegurar Atención Personalizada" data-it="Assicura Assistenza Personalizzata">Garantir Atendimento Personalizado</span>
+          <span>Garantir Atendimento Personalizado</span>
         </a>
       </div>
 
       <div class="grid grid-cols-2 md:grid-cols-4 gap-6 pt-10 border-t border-white/10 max-w-4xl mx-auto">
         <div class="glass-card p-4 rounded-xl text-center">
           <span class="block font-serif text-3xl font-bold text-luxury-gold">+20</span>
-          <span class="text-xs text-slate-400 tracking-wider uppercase" data-pt="Anos de Tradição" data-en="Years of Tradition" data-es="Años de Tradición" data-it="Anni di Tradizione">Anos de Tradição</span>
+          <span class="text-xs text-slate-400 tracking-wider uppercase">Anos de Tradição</span>
         </div>
         <div class="glass-card p-4 rounded-xl text-center">
           <span class="block font-serif text-3xl font-bold text-luxury-gold">+5.000</span>
-          <span class="text-xs text-slate-400 tracking-wider uppercase" data-pt="Textos Revisados" data-en="Texts Edited" data-es="Textos Revisados" data-it="Testi Revisionati">Textos Revisados</span>
+          <span class="text-xs text-slate-400 tracking-wider uppercase">Textos Revisados</span>
         </div>
         <div class="glass-card p-4 rounded-xl text-center">
           <span class="block font-serif text-3xl font-bold text-luxury-gold">+2.000</span>
-          <span class="text-xs text-slate-400 tracking-wider uppercase" data-pt="Alunos Aprovados" data-en="Students Approved" data-es="Alumnos Aprobados" data-it="Studenti Approvati">Alunos Aprovados</span>
+          <span class="text-xs text-slate-400 tracking-wider uppercase">Alunos Aprovados</span>
         </div>
         <div class="glass-card p-4 rounded-xl text-center">
           <span class="block font-serif text-3xl font-bold text-luxury-gold">100%</span>
-          <span class="text-xs text-slate-400 tracking-wider uppercase" data-pt="Sigilo Absoluto" data-en="Absolute Confidentiality" data-es="Confidencialidad Absoluta" data-it="Riservatezza Assoluta">Sigilo Absoluto</span>
+          <span class="text-xs text-slate-400 tracking-wider uppercase">Sigilo Absoluto</span>
         </div>
       </div>
     </div>
@@ -251,26 +230,26 @@
   <section class="py-24 bg-luxury-900 border-t border-b border-white/5 relative">
     <div class="max-w-6xl mx-auto px-6">
       <div class="text-center max-w-3xl mx-auto mb-16">
-        <span class="text-xs font-semibold text-luxury-gold tracking-widest uppercase" data-pt="Diagnóstico Preciso" data-en="Precise Diagnosis" data-es="Diagnóstico Preciso" data-it="Diagnosi Precisa">Diagnóstico Preciso</span>
-        <h2 class="font-serif text-3xl sm:text-5xl font-bold mt-3 mb-6" data-pt="Você se reconhece em alguma destas situações?" data-en="Do you recognize yourself in any of these?" data-es="¿Te reconoces en alguna de estas situaciones?" data-it="Ti riconosci in qualcuna di queste situazioni?">Você se reconhece em alguma destas situações?</h2>
-        <p class="text-slate-400 text-base sm:text-lg" data-pt="O peso de uma entrega importante não precisa ser carregado sozinho. Existe um caminho seguro." data-en="The weight of an important deadline doesn't have to be carried alone. There is a safe path." data-es="El peso de una entrega importante no tiene que cargarse solo. Existe un camino seguro." data-it="Il peso di una scadenza importante non deve essere portato da soli. Esiste una strada sicura.">O peso de uma entrega importante não precisa ser carregado sozinho. Existe um caminho seguro.</p>
+        <span class="text-xs font-semibold text-luxury-gold tracking-widest uppercase">Diagnóstico Preciso</span>
+        <h2 class="font-serif text-3xl sm:text-5xl font-bold mt-3 mb-6">Você se reconhece em alguma destas situações?</h2>
+        <p class="text-slate-400 text-base sm:text-lg">O peso de uma entrega importante não precisa ser carregado sozinho. Existe um caminho seguro.</p>
       </div>
 
       <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
         <div class="glass-card p-8 rounded-2xl relative group">
           <div class="text-3xl mb-4">⏰</div>
-          <h3 class="font-serif text-xl font-bold mb-3 text-white" data-pt="Prazo do TCC apertando" data-en="Thesis deadline closing in" data-es="Plazo de la tesina acercándose" data-it="Scadenza della tesi che si avvicina">Prazo do TCC apertando</h3>
-          <p class="text-slate-400 text-sm leading-relaxed" data-pt="Você tem o conteúdo na cabeça, mas o texto não flui, as normas ABNT parecem um labirinto e a ansiedade só aumenta a cada dia." data-en="You have the content in your head, but the writing won't flow, ABNT rules feel like a maze and anxiety grows every day." data-es="Tienes el contenido en la cabeza, pero el texto no fluye, las normas ABNT parecen un laberinto y la ansiedad crece cada día." data-it="Hai il contenuto in testa, ma il testo non scorre, le norme ABNT sembrano un labirinto e l'ansia cresce ogni giorno.">Você tem o conteúdo na cabeça, mas o texto não flui, as normas ABNT parecem um labirinto e a ansiedade só aumenta a cada dia.</p>
+          <h3 class="font-serif text-xl font-bold mb-3 text-white">Prazo do TCC apertando</h3>
+          <p class="text-slate-400 text-sm leading-relaxed">Você tem o conteúdo na cabeça, mas o texto não flui, as normas ABNT parecem um labirinto e a ansiedade só aumenta a cada dia.</p>
         </div>
         <div class="glass-card p-8 rounded-2xl relative group">
           <div class="text-3xl mb-4">✍️</div>
-          <h3 class="font-serif text-xl font-bold mb-3 text-white" data-pt="Bancas ou Revistas exigentes" data-en="Demanding boards or journals" data-es="Comités o revistas exigentes" data-it="Commissioni o riviste esigenti">Bancas ou Revistas exigentes</h3>
-          <p class="text-slate-400 text-sm leading-relaxed" data-pt="Detalhes de coesão, gramática culta ou formatação técnica que ameaçam derrubar sua nota ou atrasar sua publicação científica." data-en="Details of cohesion, formal grammar or technical formatting that threaten to sink your grade or delay your publication." data-es="Detalles de cohesión, gramática culta o formato técnico que amenazan con hundir tu nota o retrasar tu publicación." data-it="Dettagli di coesione, grammatica formale o formattazione tecnica che minacciano di affondare il voto o ritardare la pubblicazione.">Detalhes de coesão, gramática culta ou formatação técnica que ameaçam derrubar sua nota ou atrasar sua publicação científica.</p>
+          <h3 class="font-serif text-xl font-bold mb-3 text-white">Bancas ou Revistas exigentes</h3>
+          <p class="text-slate-400 text-sm leading-relaxed">Detalhes de coesão, gramática culta ou formatação técnica que ameaçam derrubar sua nota ou atrasar sua publicação científica.</p>
         </div>
         <div class="glass-card p-8 rounded-2xl relative group">
           <div class="text-3xl mb-4">🎯</div>
-          <h3 class="font-serif text-xl font-bold mb-3 text-white" data-pt="Português que bloqueia em Provas" data-en="Portuguese blocking your exams" data-es="Portugués que bloquea en exámenes" data-it="Portoghese che blocca agli esami">Português que bloqueia em Provas</h3>
-          <p class="text-slate-400 text-sm leading-relaxed" data-pt="Redações do ENEM travadas abaixo de 700 ou enunciados de concursos públicos repletos de pegadinhas que custam a sua vaga." data-en="ENEM essays stuck under 700 or public exam questions full of traps that cost you the position." data-es="Redacciones del ENEM atascadas bajo 700 o enunciados de concursos llenos de trampas que te cuestan la plaza." data-it="Temi dell'ENEM bloccati sotto 700 o domande di concorso piene di tranelli che ti costano il posto.">Redações do ENEM travadas abaixo de 700 ou enunciados de concursos públicos repletos de pegadinhas que custam a sua vaga.</p>
+          <h3 class="font-serif text-xl font-bold mb-3 text-white">Português que bloqueia em Provas</h3>
+          <p class="text-slate-400 text-sm leading-relaxed">Redações do ENEM travadas abaixo de 700 ou enunciados de concursos públicos repletos de pegadinhas que custam a sua vaga.</p>
         </div>
       </div>
     </div>
@@ -281,16 +260,16 @@
     <div class="max-w-5xl mx-auto px-6">
       <div class="glass-card p-8 sm:p-14 rounded-3xl border-luxury-gold/30">
         <div class="max-w-3xl">
-          <span class="text-xs font-semibold text-luxury-gold tracking-widest uppercase" data-pt="Consultoria de Alto Nível" data-en="High-Level Advisory" data-es="Consultoría de Alto Nivel" data-it="Consulenza di Alto Livello">Consultoria de Alto Nível</span>
-          <h2 class="font-serif text-3xl sm:text-5xl font-bold mt-3 mb-6 leading-tight" data-pt="O olhar humano e experiente que seu trabalho merece." data-en="The human, experienced eye your work deserves." data-es="La mirada humana y experta que tu trabajo merece." data-it="Lo sguardo umano ed esperto che il tuo lavoro merita.">O olhar humano e experiente que seu trabalho merece.</h2>
+          <span class="text-xs font-semibold text-luxury-gold tracking-widest uppercase">Consultoria de Alto Nível</span>
+          <h2 class="font-serif text-3xl sm:text-5xl font-bold mt-3 mb-6 leading-tight">O olhar humano e experiente que seu trabalho merece.</h2>
           <p class="text-slate-300 text-base sm:text-lg font-light leading-relaxed mb-8">
             Formada em Letras pela <strong class="text-luxury-gold font-normal">UFOP</strong> com especialização em Revisão Textual, a Professora Jussara não utiliza corretores automáticos ou fórmulas robóticas. Cada palavra é tratada com sensibilidade, preservando a sua autêntica voz e elevando o nível técnico do seu material.
           </p>
           <div class="grid grid-cols-1 sm:grid-cols-2 gap-4 text-sm text-slate-200">
-            <div class="flex items-center gap-3"><span class="text-luxury-gold text-lg">✓</span> <span data-pt="Acompanhamento individual e humano" data-en="Individual, human guidance" data-es="Acompañamiento individual y humano" data-it="Accompagnamento individuale e umano">Acompanhamento individual e humano</span></div>
-            <div class="flex items-center gap-3"><span class="text-luxury-gold text-lg">✓</span> <span data-pt="Explicação detalhada de cada ajuste" data-en="Detailed explanation of every change" data-es="Explicación detallada de cada ajuste" data-it="Spiegazione dettagliata di ogni modifica">Explicação detalhada de cada ajuste</span></div>
-            <div class="flex items-center gap-3"><span class="text-luxury-gold text-lg">✓</span> <span data-pt="Atendimento multilíngue (PT, EN, ES, IT)" data-en="Multilingual service (PT, EN, ES, IT)" data-es="Atención multilingüe (PT, EN, ES, IT)" data-it="Servizio multilingue (PT, EN, ES, IT)">Atendimento multilíngue (PT, EN, ES, IT)</span></div>
-            <div class="flex items-center gap-3"><span class="text-luxury-gold text-lg">✓</span> <span data-pt="Garantia absoluta de sigilo e ética" data-en="Absolute guarantee of confidentiality and ethics" data-es="Garantía absoluta de sigilo y ética" data-it="Garanzia assoluta di riservatezza ed etica">Garantia absoluta de sigilo e ética</span></div>
+            <div class="flex items-center gap-3"><span class="text-luxury-gold text-lg">✓</span> <span>Acompanhamento individual e humano</span></div>
+            <div class="flex items-center gap-3"><span class="text-luxury-gold text-lg">✓</span> <span>Explicação detalhada de cada ajuste</span></div>
+            <div class="flex items-center gap-3"><span class="text-luxury-gold text-lg">✓</span> <span>Atendimento exclusivo e personalizado</span></div>
+            <div class="flex items-center gap-3"><span class="text-luxury-gold text-lg">✓</span> <span>Garantia absoluta de sigilo e ética</span></div>
           </div>
         </div>
       </div>
@@ -301,36 +280,36 @@
   <section class="py-24 bg-luxury-900 border-t border-white/5">
     <div class="max-w-6xl mx-auto px-6">
       <div class="text-center max-w-3xl mx-auto mb-16">
-        <span class="text-xs font-semibold text-luxury-gold tracking-widest uppercase" data-pt="Rito Simples" data-en="Simple Ritual" data-es="Rito Simple" data-it="Rituale Semplice">Rito Simples</span>
-        <h2 class="font-serif text-3xl sm:text-5xl font-bold mt-3 mb-6" data-pt="Como funciona o atendimento" data-en="How the service works" data-es="Cómo funciona la atención" data-it="Come funziona il servizio">Como funciona o atendimento</h2>
-        <p class="text-slate-400 text-base sm:text-lg" data-pt="Quatro passos, zero burocracia. Você fala direto com a professora." data-en="Four steps, zero bureaucracy. You speak directly with the professor." data-es="Cuatro pasos, cero burocracia. Hablas directamente con la profesora." data-it="Quattro passi, zero burocrazia. Parli direttamente con la professoressa.">Quatro passos, zero burocracia. Você fala direto com a professora.</p>
+        <span class="text-xs font-semibold text-luxury-gold tracking-widest uppercase">Rito Simples</span>
+        <h2 class="font-serif text-3xl sm:text-5xl font-bold mt-3 mb-6">Como funciona o atendimento</h2>
+        <p class="text-slate-400 text-base sm:text-lg">Quatro passos, zero burocracia. Você fala direto com a professora.</p>
       </div>
 
       <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
         <div class="glass-card p-8 rounded-2xl relative">
           <span class="font-serif text-4xl font-bold gold-gradient-text block mb-4">01</span>
-          <h4 class="font-serif text-lg font-bold text-white mb-3" data-pt="Contato pelo WhatsApp" data-en="Contact via WhatsApp" data-es="Contacto por WhatsApp" data-it="Contatto via WhatsApp">Contato pelo WhatsApp</h4>
-          <p class="text-slate-400 text-sm leading-relaxed" data-pt="Você me chama, conta o que precisa. Não é necessário ter o texto pronto nem saber o nome técnico." data-en="Message me and tell me what you need. You don't need the text ready or know the technical name." data-es="Me escribes y cuentas qué necesitas. No hace falta tener el texto listo ni saber el nombre técnico." data-it="Mi scrivi e racconti cosa ti serve. Non devi avere il testo pronto né conoscere il nome tecnico.">Você me chama, conta o que precisa. Não é necessário ter o texto pronto nem saber o nome técnico.</p>
+          <h4 class="font-serif text-lg font-bold text-white mb-3">Contato pelo WhatsApp</h4>
+          <p class="text-slate-400 text-sm leading-relaxed">Você me chama, conta o que precisa. Não é necessário ter o texto pronto nem saber o nome técnico.</p>
         </div>
         <div class="glass-card p-8 rounded-2xl relative">
           <span class="font-serif text-4xl font-bold gold-gradient-text block mb-4">02</span>
-          <h4 class="font-serif text-lg font-bold text-white mb-3" data-pt="Prazo e valor combinados" data-en="Deadline and price agreed" data-es="Plazo y valor acordados" data-it="Tempi e prezzo concordati">Prazo e valor combinados</h4>
-          <p class="text-slate-400 text-sm leading-relaxed" data-pt="Você recebe um orçamento honesto, personalizado, sem enrolação. Se não fizer sentido, sem problema." data-en="You receive an honest, personalized quote with no fuss. If it doesn't fit, no problem." data-es="Recibes un presupuesto honesto, personalizado, sin rodeos. Si no encaja, sin problema." data-it="Ricevi un preventivo onesto, personalizzato, senza giri di parole. Se non fa per te, nessun problema.">Você recebe um orçamento honesto, personalizado, sem enrolação. Se não fizer sentido, sem problema.</p>
+          <h4 class="font-serif text-lg font-bold text-white mb-3">Prazo e valor combinados</h4>
+          <p class="text-slate-400 text-sm leading-relaxed">Você recebe um orçamento honesto, personalizado, sem enrolação. Se não fizer sentido, sem problema.</p>
         </div>
         <div class="glass-card p-8 rounded-2xl relative">
           <span class="font-serif text-4xl font-bold gold-gradient-text block mb-4">03</span>
-          <h4 class="font-serif text-lg font-bold text-white mb-3" data-pt="Envio do material" data-en="Sending the material" data-es="Envío del material" data-it="Invio del materiale">Envio do material</h4>
-          <p class="text-slate-400 text-sm leading-relaxed" data-pt="Word, PDF ou Google Docs, como for melhor para você. Combinamos tudo pelo WhatsApp mesmo." data-en="Word, PDF or Google Docs, whatever is easiest for you. We arrange everything on WhatsApp." data-es="Word, PDF o Google Docs, como sea mejor para ti. Acordamos todo por WhatsApp." data-it="Word, PDF o Google Docs, come preferisci. Concordiamo tutto su WhatsApp.">Word, PDF ou Google Docs, como for melhor para você. Combinamos tudo pelo WhatsApp mesmo.</p>
+          <h4 class="font-serif text-lg font-bold text-white mb-3">Envio do material</h4>
+          <p class="text-slate-400 text-sm leading-relaxed">Word, PDF ou Google Docs, como for melhor para você. Combinamos tudo pelo WhatsApp mesmo.</p>
         </div>
         <div class="glass-card p-8 rounded-2xl relative">
           <span class="font-serif text-4xl font-bold gold-gradient-text block mb-4">04</span>
-          <h4 class="font-serif text-lg font-bold text-white mb-3" data-pt="Entrega com apontamentos" data-en="Delivery with notes" data-es="Entrega con señalamientos" data-it="Consegna con annotazioni">Entrega com apontamentos</h4>
-          <p class="text-slate-400 text-sm leading-relaxed" data-pt="Devolvo o texto revisado com comentários explicando cada mudança, para você aprender junto." data-en="I return the edited text with comments explaining every change, so you learn along the way." data-es="Devuelvo el texto revisado con comentarios explicando cada cambio, para que aprendas." data-it="Restituisco il testo revisionato con commenti che spiegano ogni modifica, per imparare insieme.">Devolvo o texto revisado com comentários explicando cada mudança, para você aprender junto.</p>
+          <h4 class="font-serif text-lg font-bold text-white mb-3">Entrega com apontamentos</h4>
+          <p class="text-slate-400 text-sm leading-relaxed">Devolvo o texto revisado com comentários explicando cada mudança, para você aprender junto.</p>
         </div>
       </div>
 
       <div class="text-center mt-14">
-        <a href="https://wa.me/5533998617717?text=Ol%C3%A1%20Professora%20Jussara,%20gostaria%20de%20come%C3%A7ar." target="_blank" rel="noopener" class="inline-flex items-center justify-center px-8 py-4 rounded-xl font-bold text-sm tracking-wider uppercase gold-btn shadow-2xl" data-pt="Começar Agora" data-en="Start Now" data-es="Empezar Ahora" data-it="Inizia Ora">Começar Agora</a>
+        <a href="https://wa.me/5533998617717?text=Ol%C3%A1%20Professora%20Jussara,%20gostaria%20de%20come%C3%A7ar." target="_blank" rel="noopener" class="inline-flex items-center justify-center px-8 py-4 rounded-xl font-bold text-sm tracking-wider uppercase gold-btn shadow-2xl">Começar Agora</a>
       </div>
     </div>
   </section>
@@ -339,64 +318,64 @@
   <section id="servicos" class="py-28 bg-luxury-950 border-t border-white/5">
     <div class="max-w-7xl mx-auto px-6">
       <div class="text-center max-w-3xl mx-auto mb-20">
-        <span class="text-xs font-semibold text-luxury-gold tracking-widest uppercase" data-pt="Portfólio de Excelência" data-en="Portfolio of Excellence" data-es="Portafolio de Excelencia" data-it="Portfolio di Eccellenza">Portfólio de Excelência</span>
-        <h2 class="font-serif text-3xl sm:text-5xl font-bold mt-3 mb-6" data-pt="Escolha o serviço ideal para o seu momento" data-en="Choose the ideal service for your moment" data-es="Elige el servicio ideal para tu momento" data-it="Scegli il servizio ideale per il tuo momento">Escolha o serviço ideal para o seu momento</h2>
-        <p class="text-slate-400 text-base" data-pt="Atendimento sob medida para estudantes, pesquisadores, profissionais e estrangeiros." data-en="Tailored service for students, researchers, professionals and foreigners." data-es="Atención a medida para estudiantes, investigadores, profesionales y extranjeros." data-it="Servizio su misura per studenti, ricercatori, professionisti e stranieri.">Atendimento sob medida para estudantes, pesquisadores, profissionais e estrangeiros.</p>
+        <span class="text-xs font-semibold text-luxury-gold tracking-widest uppercase">Portfólio de Excelência</span>
+        <h2 class="font-serif text-3xl sm:text-5xl font-bold mt-3 mb-6">Escolha o serviço ideal para o seu momento</h2>
+        <p class="text-slate-400 text-base">Atendimento sob medida para estudantes, pesquisadores, profissionais e estrangeiros.</p>
       </div>
 
       <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
         <div class="glass-card p-8 rounded-2xl flex flex-col justify-between border-luxury-gold/30 relative">
-          <div class="absolute -top-3 right-6 bg-luxury-gold text-luxury-950 text-[10px] font-extrabold uppercase px-3 py-1 rounded-full tracking-widest" data-pt="Mais Procurado" data-en="Most Requested" data-es="Más Solicitado" data-it="Più Richiesto">Mais Procurado</div>
+          <div class="absolute -top-3 right-6 bg-luxury-gold text-luxury-950 text-[10px] font-extrabold uppercase px-3 py-1 rounded-full tracking-widest">Mais Procurado</div>
           <div>
-            <h3 class="font-serif text-2xl font-bold mb-3 text-white" data-pt="Revisão Acadêmica" data-en="Academic Editing" data-es="Revisión Académica" data-it="Revisione Accademica">Revisão Acadêmica</h3>
-            <p class="text-sm text-slate-400 mb-6" data-pt="Para quem precisa entregar um trabalho impecável, nos padrões da ABNT e no prazo." data-en="For those who need to deliver flawless work, within ABNT standards, on time." data-es="Para quien necesita entregar un trabajo impecable, en normas ABNT y a tiempo." data-it="Per chi deve consegnare un lavoro impeccabile, secondo le norme ABNT e nei tempi.">Para quem precisa entregar um trabalho impecável, nos padrões da ABNT e no prazo.</p>
+            <h3 class="font-serif text-2xl font-bold mb-3 text-white">Revisão Acadêmica</h3>
+            <p class="text-sm text-slate-400 mb-6">Para quem precisa entregar um trabalho impecável, nos padrões da ABNT e no prazo.</p>
             <ul class="space-y-3 text-xs text-slate-300 mb-8">
-              <li class="flex items-start gap-2"><span class="text-luxury-gold">▪</span> <span data-pt="TCCs, Dissertações e Teses" data-en="Theses, Dissertations and Final Papers" data-es="Tesinas, Tesis y Doctorados" data-it="Tesi triennali, magistrali e dottorali">TCCs, Dissertações e Teses</span></li>
-              <li class="flex items-start gap-2"><span class="text-luxury-gold">▪</span> <span data-pt="Artigos Científicos e Capítulos" data-en="Scientific Articles and Chapters" data-es="Artículos Científicos y Capítulos" data-it="Articoli Scientifici e Capitoli">Artigos Científicos e Capítulos</span></li>
-              <li class="flex items-start gap-2"><span class="text-luxury-gold">▪</span> <span data-pt="Normalização e Coesão Textual" data-en="Standards and Textual Cohesion" data-es="Normalización y Cohesión Textual" data-it="Normalizzazione e Coesione Testuale">Normalização e Coesão Textual</span></li>
+              <li class="flex items-start gap-2"><span class="text-luxury-gold">▪</span> <span>TCCs, Dissertações e Teses</span></li>
+              <li class="flex items-start gap-2"><span class="text-luxury-gold">▪</span> <span>Artigos Científicos e Capítulos</span></li>
+              <li class="flex items-start gap-2"><span class="text-luxury-gold">▪</span> <span>Normalização e Coesão Textual</span></li>
             </ul>
           </div>
-          <a href="https://wa.me/5533998617717?text=Ol%C3%A1%20Professora%20Jussara,%20quero%20or%C3%A7amento%20para%20Revis%C3%A3o%20Acad%C3%AAmica." target="_blank" rel="noopener" class="w-full py-3 text-center rounded-xl text-xs font-bold uppercase tracking-wider gold-btn" data-pt="Orçamento Direto" data-en="Direct Quote" data-es="Presupuesto Directo" data-it="Preventivo Diretto">Orçamento Direto</a>
+          <a href="https://wa.me/5533998617717?text=Ol%C3%A1%20Professora%20Jussara,%20quero%20or%C3%A7amento%20para%20Revis%C3%A3o%20Acad%C3%AAmica." target="_blank" rel="noopener" class="w-full py-3 text-center rounded-xl text-xs font-bold uppercase tracking-wider gold-btn">Orçamento Direto</a>
         </div>
 
         <div class="glass-card p-8 rounded-2xl flex flex-col justify-between">
           <div>
-            <h3 class="font-serif text-2xl font-bold mb-3 text-white" data-pt="Revisão Literária" data-en="Literary Editing" data-es="Revisión Literaria" data-it="Revisione Letteraria">Revisão Literária</h3>
-            <p class="text-sm text-slate-400 mb-6" data-pt="Para autores que desejam polir livros, contos ou biografias mantendo sua identidade artística." data-en="For authors who wish to polish books, short stories or biographies while keeping their artistic identity." data-es="Para autores que desean pulir libros, cuentos o biografías manteniendo su identidad artística." data-it="Per autori che desiderano rifinire libri, racconti o biografie mantenendo la loro identità artistica.">Para autores que desejam polir livros, contos ou biografias mantendo sua identidade artística.</p>
+            <h3 class="font-serif text-2xl font-bold mb-3 text-white">Revisão Literária</h3>
+            <p class="text-sm text-slate-400 mb-6">Para autores que desejam polir livros, contos ou biografias mantendo sua identidade artística.</p>
             <ul class="space-y-3 text-xs text-slate-300 mb-8">
-              <li class="flex items-start gap-2"><span class="text-luxury-gold">▪</span> <span data-pt="Polimento de Livros e E-books" data-en="Polishing Books and E-books" data-es="Pulido de Libros y E-books" data-it="Rifinitura di Libri ed E-book">Polimento de Livros e E-books</span></li>
-              <li class="flex items-start gap-2"><span class="text-luxury-gold">▪</span> <span data-pt="Produção textual orientada" data-en="Guided text production" data-es="Producción textual guiada" data-it="Produzione testuale guidata">Produção textual orientada</span></li>
-              <li class="flex items-start gap-2"><span class="text-luxury-gold">▪</span> <span data-pt="Superação de bloqueio criativo" data-en="Overcoming creative block" data-es="Superación del bloqueo creativo" data-it="Superamento del blocco creativo">Superação de bloqueio criativo</span></li>
+              <li class="flex items-start gap-2"><span class="text-luxury-gold">▪</span> <span>Polimento de Livros e E-books</span></li>
+              <li class="flex items-start gap-2"><span class="text-luxury-gold">▪</span> <span>Produção textual orientada</span></li>
+              <li class="flex items-start gap-2"><span class="text-luxury-gold">▪</span> <span>Superação de bloqueio criativo</span></li>
             </ul>
           </div>
-          <a href="https://wa.me/5533998617717?text=Ol%C3%A1%20Professora%20Jussara,%20quero%20saber%20sobre%20Revis%C3%A3o%20Liter%C3%A1ria." target="_blank" rel="noopener" class="w-full py-3 text-center rounded-xl text-xs font-bold uppercase tracking-wider gold-border-btn" data-pt="Consultar Opções" data-en="See Options" data-es="Ver Opciones" data-it="Vedi Opzioni">Consultar Opções</a>
+          <a href="https://wa.me/5533998617717?text=Ol%C3%A1%20Professora%20Jussara,%20quero%20saber%20sobre%20Revis%C3%A3o%20Liter%C3%A1ria." target="_blank" rel="noopener" class="w-full py-3 text-center rounded-xl text-xs font-bold uppercase tracking-wider gold-border-btn">Consultar Opções</a>
         </div>
 
         <div class="glass-card p-8 rounded-2xl flex flex-col justify-between">
           <div>
-            <h3 class="font-serif text-2xl font-bold mb-3 text-white" data-pt="Aulas de Português" data-en="Portuguese Classes" data-es="Clases de Portugués" data-it="Lezioni di Portoghese">Aulas de Português</h3>
-            <p class="text-sm text-slate-400 mb-6" data-pt="Aulas particulares online e individuais focadas em resultados rápidos em provas e concursos." data-en="Private online one-on-one classes focused on fast results for exams and public service tests." data-es="Clases particulares online e individuales enfocadas en resultados rápidos en exámenes y concursos." data-it="Lezioni private online individuali focalizzate su risultati rapidi in esami e concorsi.">Aulas particulares online e individuais focadas em resultados rápidos em provas e concursos.</p>
+            <h3 class="font-serif text-2xl font-bold mb-3 text-white">Aulas de Português</h3>
+            <p class="text-sm text-slate-400 mb-6">Aulas particulares online e individuais focadas em resultados rápidos em provas e concursos.</p>
             <ul class="space-y-3 text-xs text-slate-300 mb-8">
-              <li class="flex items-start gap-2"><span class="text-luxury-gold">▪</span> <span data-pt="Preparatório ENEM e Concursos" data-en="Prep for ENEM and Public Exams" data-es="Preparación ENEM y Concursos" data-it="Preparazione ENEM e Concorsi">Preparatório ENEM e Concursos</span></li>
-              <li class="flex items-start gap-2"><span class="text-luxury-gold">▪</span> <span data-pt="Interpretação e Gramática Aplicada" data-en="Reading Comprehension and Applied Grammar" data-es="Interpretación y Gramática Aplicada" data-it="Interpretazione e Grammatica Applicata">Interpretação e Gramática Aplicada</span></li>
-              <li class="flex items-start gap-2"><span class="text-luxury-gold">▪</span> <span data-pt="EJA e Alfabetização Avançada" data-en="EJA and Advanced Literacy" data-es="EJA y Alfabetización Avanzada" data-it="EJA e Alfabetizzazione Avanzata">EJA e Alfabetização Avançada</span></li>
+              <li class="flex items-start gap-2"><span class="text-luxury-gold">▪</span> <span>Preparatório ENEM e Concursos</span></li>
+              <li class="flex items-start gap-2"><span class="text-luxury-gold">▪</span> <span>Interpretação e Gramática Aplicada</span></li>
+              <li class="flex items-start gap-2"><span class="text-luxury-gold">▪</span> <span>EJA e Alfabetização Avançada</span></li>
             </ul>
           </div>
-          <a href="https://wa.me/5533998617717?text=Ol%C3%A1%20Professora%20Jussara,%20gostaria%20de%20agendar%20Aulas%20de%20Portugu%C3%AAs." target="_blank" rel="noopener" class="w-full py-3 text-center rounded-xl text-xs font-bold uppercase tracking-wider gold-border-btn" data-pt="Agendar Aulas" data-en="Schedule Classes" data-es="Agendar Clases" data-it="Programma Lezioni">Agendar Aulas</a>
+          <a href="https://wa.me/5533998617717?text=Ol%C3%A1%20Professora%20Jussara,%20gostaria%20de%20agendar%20Aulas%20de%20Portugu%C3%AAs." target="_blank" rel="noopener" class="w-full py-3 text-center rounded-xl text-xs font-bold uppercase tracking-wider gold-border-btn">Agendar Aulas</a>
         </div>
 
         <div class="glass-card p-8 rounded-2xl flex flex-col justify-between border-luxury-accent/40">
           <div>
-            <span class="text-[10px] text-luxury-gold font-bold uppercase tracking-widest block mb-1" data-pt="Especial" data-en="Special" data-es="Especial" data-it="Speciale">Especial</span>
-            <h3 class="font-serif text-2xl font-bold mb-3 text-white" data-pt="Português para Estrangeiros" data-en="Portuguese for Foreigners" data-es="Portugués para Extranjeros" data-it="Portoghese per Stranieri">Português para Estrangeiros</h3>
-            <p class="text-sm text-slate-400 mb-6" data-pt="Método sensível e cultural para estrangeiros dominarem o idioma do zero à fluência." data-en="A sensitive, cultural method for foreigners to master the language from zero to fluency." data-es="Método sensible y cultural para que extranjeros dominen el idioma de cero a la fluidez." data-it="Metodo sensibile e culturale per stranieri che vogliono padroneggiare la lingua da zero alla fluidità.">Método sensível e cultural para estrangeiros dominarem o idioma do zero à fluência.</p>
+            <span class="text-[10px] text-luxury-gold font-bold uppercase tracking-widest block mb-1">Especial</span>
+            <h3 class="font-serif text-2xl font-bold mb-3 text-white">Português para Estrangeiros</h3>
+            <p class="text-sm text-slate-400 mb-6">Método sensível e cultural para estrangeiros dominarem o idioma do zero à fluência.</p>
             <ul class="space-y-3 text-xs text-slate-300 mb-8">
-              <li class="flex items-start gap-2"><span class="text-luxury-gold">▪</span> <span data-pt="Conversação Fluida e Profissional" data-en="Fluent and Professional Conversation" data-es="Conversación Fluida y Profesional" data-it="Conversazione Fluente e Professionale">Conversação Fluida e Profissional</span></li>
-              <li class="flex items-start gap-2"><span class="text-luxury-gold">▪</span> <span data-pt="Adaptação cultural para o Brasil" data-en="Cultural adaptation for Brazil" data-es="Adaptación cultural para Brasil" data-it="Adattamento culturale per il Brasile">Adaptação cultural para o Brasil</span></li>
-              <li class="flex items-start gap-2"><span class="text-luxury-gold">▪</span> <span data-pt="Escrita Acadêmica Internacional" data-en="International Academic Writing" data-es="Escritura Académica Internacional" data-it="Scrittura Accademica Internazionale">Escrita Acadêmica Internacional</span></li>
+              <li class="flex items-start gap-2"><span class="text-luxury-gold">▪</span> <span>Conversação Fluida e Profissional</span></li>
+              <li class="flex items-start gap-2"><span class="text-luxury-gold">▪</span> <span>Adaptação cultural para o Brasil</span></li>
+              <li class="flex items-start gap-2"><span class="text-luxury-gold">▪</span> <span>Escrita Acadêmica Internacional</span></li>
             </ul>
           </div>
-          <a href="https://wa.me/5533998617717?text=Ol%C3%A1%20Professora%20Jussara,%20tenho%20interesse%20em%20Portugu%C3%AAs%20para%20Estrangeiros." target="_blank" rel="noopener" class="w-full py-3 text-center rounded-xl text-xs font-bold uppercase tracking-wider gold-btn" data-pt="Saber Mais" data-en="Learn More" data-es="Saber Más" data-it="Scopri di Più">Saber Mais</a>
+          <a href="https://wa.me/5533998617717?text=Ol%C3%A1%20Professora%20Jussara,%20tenho%20interesse%20em%20Portugu%C3%AAs%20para%20Estrangeiros." target="_blank" rel="noopener" class="w-full py-3 text-center rounded-xl text-xs font-bold uppercase tracking-wider gold-btn">Saber Mais</a>
         </div>
       </div>
     </div>
@@ -406,35 +385,35 @@
   <section class="py-24 bg-luxury-900 border-t border-b border-white/5">
     <div class="max-w-6xl mx-auto px-6">
       <div class="text-center max-w-3xl mx-auto mb-16">
-        <span class="text-xs font-semibold text-luxury-gold tracking-widest uppercase" data-pt="Sinceridade" data-en="Honesty" data-es="Sinceridad" data-it="Sincerità">Sinceridade</span>
-        <h2 class="font-serif text-3xl sm:text-5xl font-bold mt-3 mb-6" data-pt="Para quem é — e para quem não é" data-en="Who it's for — and who it's not" data-es="Para quién es — y para quién no" data-it="Per chi è — e per chi non lo è">Para quem é — e para quem não é</h2>
+        <span class="text-xs font-semibold text-luxury-gold tracking-widest uppercase">Sinceridade</span>
+        <h2 class="font-serif text-3xl sm:text-5xl font-bold mt-3 mb-6">Para quem é — e para quem não é</h2>
       </div>
 
       <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
         <div class="glass-card p-10 rounded-3xl border-luxury-gold/40">
           <div class="flex items-center gap-4 mb-8">
             <span class="w-12 h-12 rounded-full bg-luxury-gold/15 border border-luxury-gold/40 flex items-center justify-center text-luxury-gold text-xl font-bold">✓</span>
-            <h3 class="font-serif text-2xl font-bold text-white" data-pt="É para você se..." data-en="It's for you if..." data-es="Es para ti si..." data-it="È per te se...">É para você se...</h3>
+            <h3 class="font-serif text-2xl font-bold text-white">É para você se...</h3>
           </div>
           <ul class="space-y-4 text-sm text-slate-300">
-            <li class="flex items-start gap-3"><span class="text-luxury-gold mt-1">▪</span> <span data-pt="Você tem um texto sério que precisa ficar impecável." data-en="You have serious work that must be impeccable." data-es="Tienes un texto serio que debe quedar impecable." data-it="Hai un testo serio che deve essere impeccabile.">Você tem um texto sério que precisa ficar impecável.</span></li>
-            <li class="flex items-start gap-3"><span class="text-luxury-gold mt-1">▪</span> <span data-pt="Você valoriza sigilo, cuidado e atenção individual." data-en="You value confidentiality, care and individual attention." data-es="Valoras confidencialidad, cuidado y atención individual." data-it="Apprezzi riservatezza, cura e attenzione individuale.">Você valoriza sigilo, cuidado e atenção individual.</span></li>
-            <li class="flex items-start gap-3"><span class="text-luxury-gold mt-1">▪</span> <span data-pt="Você quer entender o porquê das correções, não só receber pronto." data-en="You want to understand the why behind each correction, not just get it done." data-es="Quieres entender el porqué de las correcciones, no solo recibirlo hecho." data-it="Vuoi capire il perché delle correzioni, non solo riceverlo fatto.">Você quer entender o porquê das correções, não só receber pronto.</span></li>
-            <li class="flex items-start gap-3"><span class="text-luxury-gold mt-1">▪</span> <span data-pt="Você vai prestar ENEM, concurso ou precisa aprender português de verdade." data-en="You're taking ENEM, a public exam, or need to truly learn Portuguese." data-es="Vas a ENEM, concurso o necesitas aprender portugués de verdad." data-it="Devi fare l'ENEM, un concorso o imparare davvero il portoghese.">Você vai prestar ENEM, concurso ou precisa aprender português de verdade.</span></li>
-            <li class="flex items-start gap-3"><span class="text-luxury-gold mt-1">▪</span> <span data-pt="Você é estrangeiro e quer aprender com método e cultura." data-en="You're foreign and want to learn with method and culture." data-es="Eres extranjero y quieres aprender con método y cultura." data-it="Sei straniero e vuoi imparare con metodo e cultura.">Você é estrangeiro e quer aprender com método e cultura.</span></li>
+            <li class="flex items-start gap-3"><span class="text-luxury-gold mt-1">▪</span> <span>Você tem um texto sério que precisa ficar impecável.</span></li>
+            <li class="flex items-start gap-3"><span class="text-luxury-gold mt-1">▪</span> <span>Você valoriza sigilo, cuidado e atenção individual.</span></li>
+            <li class="flex items-start gap-3"><span class="text-luxury-gold mt-1">▪</span> <span>Você quer entender o porquê das correções, não só receber pronto.</span></li>
+            <li class="flex items-start gap-3"><span class="text-luxury-gold mt-1">▪</span> <span>Você vai prestar ENEM, concurso ou precisa aprender português de verdade.</span></li>
+            <li class="flex items-start gap-3"><span class="text-luxury-gold mt-1">▪</span> <span>Você é estrangeiro e quer aprender com método e cultura.</span></li>
           </ul>
         </div>
 
         <div class="glass-card p-10 rounded-3xl border-red-500/20">
           <div class="flex items-center gap-4 mb-8">
             <span class="w-12 h-12 rounded-full bg-red-500/10 border border-red-500/40 flex items-center justify-center text-red-400 text-xl font-bold">✕</span>
-            <h3 class="font-serif text-2xl font-bold text-white" data-pt="Não é para você se..." data-en="It's not for you if..." data-es="No es para ti si..." data-it="Non è per te se...">Não é para você se...</h3>
+            <h3 class="font-serif text-2xl font-bold text-white">Não é para você se...</h3>
           </div>
           <ul class="space-y-4 text-sm text-slate-400">
-            <li class="flex items-start gap-3"><span class="text-red-400 mt-1">▪</span> <span data-pt="Você quer um texto produzido 100% por IA, sem revisão humana." data-en="You want a text 100% produced by AI, without human editing." data-es="Quieres un texto 100% producido por IA, sin revisión humana." data-it="Vuoi un testo prodotto al 100% dall'IA, senza revisione umana.">Você quer um texto produzido 100% por IA, sem revisão humana.</span></li>
-            <li class="flex items-start gap-3"><span class="text-red-400 mt-1">▪</span> <span data-pt="Você busca o menor preço do mercado, não qualidade." data-en="You're looking for the lowest price, not quality." data-es="Buscas el precio más bajo, no la calidad." data-it="Cerchi il prezzo più basso, non la qualità.">Você busca o menor preço do mercado, não qualidade.</span></li>
-            <li class="flex items-start gap-3"><span class="text-red-400 mt-1">▪</span> <span data-pt="Você quer entregar em cima da hora e sem tempo hábil." data-en="You want to deliver at the last minute with no time." data-es="Quieres entregar a última hora y sin tiempo." data-it="Vuoi consegnare all'ultimo minuto e senza tempo.">Você quer entregar em cima da hora e sem tempo hábil.</span></li>
-            <li class="flex items-start gap-3"><span class="text-red-400 mt-1">▪</span> <span data-pt="Você prefere não entender o processo, só receber pronto." data-en="You prefer not to understand the process, just get it done." data-es="Prefieres no entender el proceso, solo recibirlo hecho." data-it="Preferisci non capire il processo, solo riceverlo fatto.">Você prefere não entender o processo, só receber pronto.</span></li>
+            <li class="flex items-start gap-3"><span class="text-red-400 mt-1">▪</span> <span>Você quer um texto produzido 100% por IA, sem revisão humana.</span></li>
+            <li class="flex items-start gap-3"><span class="text-red-400 mt-1">▪</span> <span>Você busca o menor preço do mercado, não qualidade.</span></li>
+            <li class="flex items-start gap-3"><span class="text-red-400 mt-1">▪</span> <span>Você quer entregar em cima da hora e sem tempo hábil.</span></li>
+            <li class="flex items-start gap-3"><span class="text-red-400 mt-1">▪</span> <span>Você prefere não entender o processo, só receber pronto.</span></li>
           </ul>
         </div>
       </div>
@@ -445,8 +424,8 @@
   <section id="depoimentos" class="py-28 bg-luxury-950 border-t border-white/5">
     <div class="max-w-6xl mx-auto px-6">
       <div class="text-center max-w-3xl mx-auto mb-16">
-        <span class="text-xs font-semibold text-luxury-gold tracking-widest uppercase" data-pt="Vozes Reais" data-en="Real Voices" data-es="Voces Reales" data-it="Voci Reali">Vozes Reais</span>
-        <h2 class="font-serif text-3xl sm:text-5xl font-bold mt-3 mb-6" data-pt="O que dizem por aí" data-en="What they say" data-es="Lo que dicen" data-it="Cosa dicono">O que dizem por aí</h2>
+        <span class="text-xs font-semibold text-luxury-gold tracking-widest uppercase">Vozes Reais</span>
+        <h2 class="font-serif text-3xl sm:text-5xl font-bold mt-3 mb-6">O que dizem por aí</h2>
       </div>
 
       <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
@@ -457,58 +436,58 @@
             "A melhor professora de língua portuguesa do Brasil. Ela entende e sabe explicar — é perfeita."
           </blockquote>
           <div class="flex items-center gap-4 pt-6 border-t border-white/10">
-            <img src="https://i.pravatar.cc/100?img=12" alt="Yuri Abyaza Costa" class="w-14 h-14 rounded-full border-2 border-luxury-gold/50" loading="lazy" />
+            <img src="https://i.pravatar.cc/100?img=12" alt="Bruno Almeida" class="w-14 h-14 rounded-full border-2 border-luxury-gold/50" loading="lazy" />
             <div>
-              <strong class="block text-white text-base">Yuri Abyaza Costa</strong>
-              <span class="block text-xs text-luxury-gold tracking-wider uppercase mt-0.5" data-pt="Aluno de Português" data-en="Portuguese Student" data-es="Alumno de Portugués" data-it="Studente di Portoghese">Aluno de Português</span>
+              <strong class="block text-white text-base">Bruno Almeida</strong>
+              <span class="block text-xs text-luxury-gold tracking-wider uppercase mt-0.5">Aluno de Português</span>
             </div>
           </div>
         </div>
 
         <div class="glass-card p-8 rounded-2xl">
           <div class="font-serif text-5xl text-luxury-gold/30 leading-none mb-4">"</div>
-          <blockquote class="font-serif italic text-base text-slate-200 leading-relaxed mb-6" data-pt="“Eu estava travada na dissertação há meses. A Jussara não só revisou — me ajudou a destravar o raciocínio.”" data-en="“I was stuck on my dissertation for months. Jussara didn't just edit — she helped me unblock my thinking.”" data-es="“Estaba atascada con mi tesis desde hacía meses. Jussara no solo la revisó — me ayudó a desbloquear el razonamiento.”" data-it="“Ero bloccata sulla tesi da mesi. Jussara non solo l'ha revisionata — mi ha aiutata a sbloccare il ragionamento.”">"Eu estava travada na dissertação há meses. A Jussara não só revisou — me ajudou a destravar o raciocínio."</blockquote>
+          <blockquote class="font-serif italic text-base text-slate-200 leading-relaxed mb-6">"Eu estava travada na dissertação há meses. A Jussara não só revisou — me ajudou a destravar o raciocínio."</blockquote>
           <div class="flex items-center gap-3 pt-5 border-t border-white/10">
             <img src="https://i.pravatar.cc/100?img=47" alt="Mariana R." class="w-12 h-12 rounded-full border-2 border-luxury-gold/30" loading="lazy" />
             <div>
               <strong class="block text-white text-sm">Mariana R.</strong>
-              <span class="block text-xs text-slate-500" data-pt="Mestranda · BH/MG" data-en="Master's Student · BH, Brazil" data-es="Maestranda · BH, Brasil" data-it="Studentessa Magistrale · BH, Brasile">Mestranda · BH/MG</span>
+              <span class="block text-xs text-slate-500">Mestranda · BH/MG</span>
             </div>
           </div>
         </div>
 
         <div class="glass-card p-8 rounded-2xl">
           <div class="font-serif text-5xl text-luxury-gold/30 leading-none mb-4">"</div>
-          <blockquote class="font-serif italic text-base text-slate-200 leading-relaxed mb-6" data-pt="“Passei no concurso depois de duas reprovações. O que mudou foi aprender a ler o enunciado de verdade.”" data-en="“I passed the public exam after two failures. What changed was learning to really read the question.”" data-es="“Aprobé el concurso tras dos reprobaciones. Lo que cambió fue aprender a leer realmente el enunciado.”" data-it="“Ho superato il concorso dopo due bocciature. Quello che è cambiato è stato imparare a leggere davvero la traccia.”">"Passei no concurso depois de duas reprovações. O que mudou foi aprender a ler o enunciado de verdade."</blockquote>
+          <blockquote class="font-serif italic text-base text-slate-200 leading-relaxed mb-6">"Passei no concurso depois de duas reprovações. O que mudou foi aprender a ler o enunciado de verdade."</blockquote>
           <div class="flex items-center gap-3 pt-5 border-t border-white/10">
             <img src="https://i.pravatar.cc/100?img=33" alt="Carlos Eduardo S." class="w-12 h-12 rounded-full border-2 border-luxury-gold/30" loading="lazy" />
             <div>
               <strong class="block text-white text-sm">Carlos Eduardo S.</strong>
-              <span class="block text-xs text-slate-500" data-pt="Concursado · SP" data-en="Public Servant · SP, Brazil" data-es="Aprobado en Concurso · SP, Brasil" data-it="Funzionario Pubblico · SP, Brasile">Concursado · SP</span>
+              <span class="block text-xs text-slate-500">Concursado · SP</span>
             </div>
           </div>
         </div>
 
         <div class="glass-card p-8 rounded-2xl">
           <div class="font-serif text-5xl text-luxury-gold/30 leading-none mb-4">"</div>
-          <blockquote class="font-serif italic text-base text-slate-200 leading-relaxed mb-6" data-pt="“Escrevi meu primeiro livro com o acompanhamento dela. Não é exagero: o texto virou outro.”" data-en="“I wrote my first book with her guidance. It's no exaggeration: the text became another thing.”" data-es="“Escribí mi primer libro con su acompañamiento. No es exageración: el texto se volvió otro.”" data-it="“Ho scritto il mio primo libro con il suo accompagnamento. Non è un'esagerazione: il testo è diventato un'altra cosa.”">"Escrevi meu primeiro livro com o acompanhamento dela. Não é exagero: o texto virou outro."</blockquote>
+          <blockquote class="font-serif italic text-base text-slate-200 leading-relaxed mb-6">"Escrevi meu primeiro livro com o acompanhamento dela. Não é exagero: o texto virou outro."</blockquote>
           <div class="flex items-center gap-3 pt-5 border-t border-white/10">
             <img src="https://i.pravatar.cc/100?img=45" alt="Juliana T." class="w-12 h-12 rounded-full border-2 border-luxury-gold/30" loading="lazy" />
             <div>
               <strong class="block text-white text-sm">Juliana T.</strong>
-              <span class="block text-xs text-slate-500" data-pt="Autora · Curitiba/PR" data-en="Author · Curitiba, Brazil" data-es="Autora · Curitiba, Brasil" data-it="Autrice · Curitiba, Brasile">Autora · Curitiba/PR</span>
+              <span class="block text-xs text-slate-500">Autora · Curitiba/PR</span>
             </div>
           </div>
         </div>
 
         <div class="glass-card p-8 rounded-2xl">
           <div class="font-serif text-5xl text-luxury-gold/30 leading-none mb-4">"</div>
-          <blockquote class="font-serif italic text-base text-slate-200 leading-relaxed mb-6" data-pt="“Minha redação no ENEM subiu de 640 para 920 em três meses de aula. A professora tem método.”" data-en="“My ENEM essay went from 640 to 920 in three months. The professor has a method.”" data-es="“Mi redacción del ENEM subió de 640 a 920 en tres meses. La profesora tiene método.”" data-it="“Il mio tema dell'ENEM è passato da 640 a 920 in tre mesi. La professoressa ha un metodo.”">"Minha redação no ENEM subiu de 640 para 920 em três meses de aula. A professora tem método."</blockquote>
+          <blockquote class="font-serif italic text-base text-slate-200 leading-relaxed mb-6">"Minha redação no ENEM subiu de 640 para 920 em três meses de aula. A professora tem método."</blockquote>
           <div class="flex items-center gap-3 pt-5 border-t border-white/10">
             <img src="https://i.pravatar.cc/100?img=8" alt="André P." class="w-12 h-12 rounded-full border-2 border-luxury-gold/30" loading="lazy" />
             <div>
               <strong class="block text-white text-sm">André P.</strong>
-              <span class="block text-xs text-slate-500" data-pt="Aluno ENEM · Campinas/SP" data-en="ENEM Student · Campinas, Brazil" data-es="Alumno ENEM · Campinas, Brasil" data-it="Studente ENEM · Campinas, Brasile">Aluno ENEM · Campinas/SP</span>
+              <span class="block text-xs text-slate-500">Aluno ENEM · Campinas/SP</span>
             </div>
           </div>
         </div>
@@ -526,19 +505,19 @@
               <div class="absolute inset-6 border border-luxury-gold/30 rounded-2xl pointer-events-none"></div>
               <span class="font-serif text-8xl font-bold gold-gradient-text">JS</span>
             </div>
-            <p class="text-center text-[10px] tracking-[0.3em] uppercase text-slate-500 mt-4" data-pt="Foto em breve" data-en="Photo coming soon" data-es="Foto próximamente" data-it="Foto in arrivo">Foto em breve</p>
+            <p class="text-center text-[10px] tracking-[0.3em] uppercase text-slate-500 mt-4">Foto em breve</p>
           </div>
         </div>
 
         <div class="lg:col-span-3">
-          <span class="text-xs font-semibold text-luxury-gold tracking-widest uppercase" data-pt="Quem está do outro lado" data-en="Who's on the other side" data-es="Quién está al otro lado" data-it="Chi è dall'altra parte">Quem está do outro lado</span>
-          <h2 class="font-serif text-3xl sm:text-5xl font-bold mt-3 mb-8 leading-tight" data-pt="Prazer, Jussara." data-en="Nice to meet you, Jussara." data-es="Un placer, Jussara." data-it="Piacere, Jussara.">Prazer, Jussara.</h2>
+          <span class="text-xs font-semibold text-luxury-gold tracking-widest uppercase">Quem está do outro lado</span>
+          <h2 class="font-serif text-3xl sm:text-5xl font-bold mt-3 mb-8 leading-tight">Prazer, Jussara.</h2>
 
-          <p class="text-slate-300 leading-relaxed mb-5" data-pt="Sou formada em Letras pela Universidade Federal de Ouro Preto (MG), com especialização em Revisão. Vinte anos ensinando, revisando e ajudando pessoas a escrever melhor." data-en="I hold a degree in Languages from the Federal University of Ouro Preto (MG), with a specialization in Editing. Twenty years teaching, editing and helping people write better." data-es="Soy licenciada en Letras por la Universidad Federal de Ouro Preto (MG), con especialización en Revisión. Veinte años enseñando, revisando y ayudando a escribir mejor." data-it="Sono laureata in Lettere presso l'Università Federale di Ouro Preto (MG), con specializzazione in Revisione. Venti anni insegnando, revisionando e aiutando a scrivere meglio.">Sou formada em Letras pela Universidade Federal de Ouro Preto (MG), com especialização em Revisão. Vinte anos ensinando, revisando e ajudando pessoas a escrever melhor.</p>
+          <p class="text-slate-300 leading-relaxed mb-5">Sou formada em Letras pela Universidade Federal de Ouro Preto (MG), com especialização em Revisão. Vinte anos ensinando, revisando e ajudando pessoas a escrever melhor.</p>
 
-          <p class="text-slate-400 leading-relaxed mb-5 text-sm" data-pt="Minha maior paixão é a língua portuguesa — em especial a produção e a revisão de textos de todos os tipos e gêneros. Auxilio pessoas com bloqueio criativo durante a elaboração de seus trabalhos acadêmicos ou livros, e ministro aulas online para quem tem dificuldade de aprendizado ou deseja aprimorar a produção textual." data-en="My greatest passion is the Portuguese language — especially producing and editing texts of all types and genres. I help people with creative blocks while writing their academic work or books, and teach online classes for those who struggle or want to improve their writing." data-es="Mi mayor pasión es la lengua portuguesa — en especial la producción y la revisión de textos de todos los tipos y géneros. Ayudo a personas con bloqueo creativo durante la elaboración de sus trabajos académicos o libros, y doy clases online para quienes tienen dificultades o desean mejorar la producción textual." data-it="La mia più grande passione è la lingua portoghese — in particolare la produzione e la revisione di testi di ogni tipo e genere. Aiuto le persone con blocchi creativi durante la stesura dei loro lavori accademici o libri, e tengo lezioni online per chi ha difficoltà o vuole migliorare la produzione testuale.">Minha maior paixão é a língua portuguesa — em especial a produção e a revisão de textos de todos os tipos e gêneros. Auxilio pessoas com bloqueio criativo durante a elaboração de seus trabalhos acadêmicos ou livros, e ministro aulas online para quem tem dificuldade de aprendizado ou deseja aprimorar a produção textual.</p>
+          <p class="text-slate-400 leading-relaxed mb-5 text-sm">Minha maior paixão é a língua portuguesa — em especial a produção e a revisão de textos de todos os tipos e gêneros. Auxilio pessoas com bloqueio criativo durante a elaboração de seus trabalhos acadêmicos ou livros, e ministro aulas online para quem tem dificuldade de aprendizado ou deseja aprimorar a produção textual.</p>
 
-          <p class="text-slate-400 leading-relaxed text-sm" data-pt="Também ajudo empresas na elaboração de textos impressos ou digitais — blogs, portais de notícias, roteiros de vídeo — sempre com linguagem humana, considerando a finalidade de cada texto." data-en="I also help companies craft printed or digital texts — blogs, news portals, video scripts — always with human language, considering each text's purpose." data-es="También ayudo a empresas en la elaboración de textos impresos o digitales — blogs, portales de noticias, guiones de vídeo —, siempre con lenguaje humano, considerando la finalidad de cada texto." data-it="Aiuto anche le aziende nella redazione di testi stampati o digitali — blog, portali di notizie, sceneggiature video — sempre con linguaggio umano, considerando la finalità di ogni testo.">Também ajudo empresas na elaboração de textos impressos ou digitais — blogs, portais de notícias, roteiros de vídeo — sempre com linguagem humana, considerando a finalidade de cada texto.</p>
+          <p class="text-slate-400 leading-relaxed text-sm">Também ajudo empresas na elaboração de textos impressos ou digitais — blogs, portais de notícias, roteiros de vídeo — sempre com linguagem humana, considerando a finalidade de cada texto.</p>
 
           <p class="font-serif italic text-2xl gold-gradient-text mt-8 pt-6 border-t border-white/10">— Jussara Soares</p>
         </div>
@@ -557,8 +536,8 @@
               <path stroke-linecap="round" stroke-linejoin="round" d="M16.5 10.5V6.75a4.5 4.5 0 10-9 0v3.75m-.75 11.25h10.5a2.25 2.25 0 002.25-2.25v-6.75a2.25 2.25 0 00-2.25-2.25H6.75a2.25 2.25 0 00-2.25 2.25v6.75a2.25 2.25 0 002.25 2.25z"/>
             </svg>
           </div>
-          <h3 class="font-serif text-3xl sm:text-4xl font-bold mb-5" data-pt="Sigilo Absoluto" data-en="Absolute Confidentiality" data-es="Confidencialidad Absoluta" data-it="Riservatezza Assoluta">Sigilo Absoluto</h3>
-          <p class="text-slate-300 text-base sm:text-lg font-light leading-relaxed max-w-2xl mx-auto" data-pt="Seu texto é tratado com total confidencialidade. Só você — o autor — e eu — a professora — temos acesso ao material. Nada mais. Isso nunca foi negociável e nunca será." data-en="Your text is treated with total confidentiality. Only you — the author — and I — the teacher — have access. Nothing more. This has never been negotiable and never will be." data-es="Tu texto se trata con total confidencialidad. Solo tú — el autor — y yo — la profesora — tenemos acceso. Nada más. Esto nunca ha sido negociable y nunca lo será." data-it="Il tuo testo è trattato con totale riservatezza. Solo tu — l'autore — e io — l'insegnante — abbiamo accesso. Niente di più. Questo non è mai stato negoziabile e mai lo sarà.">Seu texto é tratado com total confidencialidade. Só você — o autor — e eu — a professora — temos acesso ao material. Nada mais. Isso nunca foi negociável e nunca será.</p>
+          <h3 class="font-serif text-3xl sm:text-4xl font-bold mb-5">Sigilo Absoluto</h3>
+          <p class="text-slate-300 text-base sm:text-lg font-light leading-relaxed max-w-2xl mx-auto">Seu texto é tratado com total confidencialidade. Só você — o autor — e eu — a professora — temos acesso ao material. Nada mais. Isso nunca foi negociável e nunca será.</p>
         </div>
       </div>
     </div>
@@ -568,26 +547,26 @@
   <section id="faq" class="py-28 relative bg-luxury-900 border-t border-white/5">
     <div class="max-w-4xl mx-auto px-6">
       <div class="text-center mb-16">
-        <span class="text-xs font-semibold text-luxury-gold tracking-widest uppercase" data-pt="Esclarecimentos" data-en="Clarifications" data-es="Aclaraciones" data-it="Chiarimenti">Esclarecimentos</span>
-        <h2 class="font-serif text-3xl sm:text-4xl font-bold mt-3" data-pt="Perguntas Frequentes" data-en="Frequently Asked Questions" data-es="Preguntas Frecuentes" data-it="Domande Frequenti">Perguntas Frequentes</h2>
+        <span class="text-xs font-semibold text-luxury-gold tracking-widest uppercase">Esclarecimentos</span>
+        <h2 class="font-serif text-3xl sm:text-4xl font-bold mt-3">Perguntas Frequentes</h2>
       </div>
 
       <div class="space-y-6">
         <div class="glass-card p-6 rounded-2xl">
-          <h4 class="font-bold text-base mb-2 text-luxury-gold" data-pt="Quanto custa uma revisão ou um pacote de aulas?" data-en="How much does editing or a class package cost?" data-es="¿Cuánto cuesta una revisión o un paquete de clases?" data-it="Quanto costa una revisione o un pacchetto di lezioni?">Quanto custa uma revisão ou um pacote de aulas?</h4>
-          <p class="text-sm text-slate-300 leading-relaxed" data-pt="Como cada material e objetivo são únicos, os orçamentos são personalizados após uma rápida avaliação do texto ou da sua necessidade pelo WhatsApp. O retorno é ágil!" data-en="Since every material and goal is unique, quotes are personalized after a quick assessment of the text or your needs on WhatsApp. Fast reply!" data-es="Como cada material y objetivo es único, los presupuestos son personalizados tras una rápida evaluación del texto o de tu necesidad por WhatsApp. ¡La respuesta es ágil!" data-it="Poiché ogni materiale e obiettivo sono unici, i preventivi sono personalizzati dopo una rapida valutazione del testo o della tua esigenza su WhatsApp. Risposta rapida!">Como cada material e objetivo são únicos, os orçamentos são personalizados após uma rápida avaliação do texto ou da sua necessidade pelo WhatsApp. O retorno é ágil!</p>
+          <h4 class="font-bold text-base mb-2 text-luxury-gold">Quanto custa uma revisão ou um pacote de aulas?</h4>
+          <p class="text-sm text-slate-300 leading-relaxed">Como cada material e objetivo são únicos, os orçamentos são personalizados após uma rápida avaliação do texto ou da sua necessidade pelo WhatsApp. O retorno é ágil!</p>
         </div>
         <div class="glass-card p-6 rounded-2xl">
-          <h4 class="font-bold text-base mb-2 text-luxury-gold" data-pt="Qual é o prazo de entrega para textos acadêmicos?" data-en="What is the delivery time for academic texts?" data-es="¿Cuál es el plazo de entrega para textos académicos?" data-it="Qual è il tempo di consegna per i testi accademici?">Qual é o prazo de entrega para textos acadêmicos?</h4>
-          <p class="text-sm text-slate-300 leading-relaxed" data-pt="Textos curtos são finalizados em 24 a 48 horas. Dissertações e teses têm prazos planejados em conjunto com você para garantir total pontualidade antes da sua banca." data-en="Short texts are finished in 24 to 48 hours. Dissertations and theses have deadlines planned together with you to guarantee total punctuality before your defense." data-es="Los textos cortos se finalizan en 24 a 48 horas. Las tesis y disertaciones tienen plazos planificados contigo para garantizar total puntualidad antes de tu defensa." data-it="I testi brevi sono completati in 24-48 ore. Tesi e dissertazioni hanno tempi pianificati insieme a te per garantire totale puntualità prima della discussione.">Textos curtos são finalizados em 24 a 48 horas. Dissertações e teses têm prazos planejados em conjunto com você para garantir total pontualidade antes da sua banca.</p>
+          <h4 class="font-bold text-base mb-2 text-luxury-gold">Qual é o prazo de entrega para textos acadêmicos?</h4>
+          <p class="text-sm text-slate-300 leading-relaxed">Textos curtos são finalizados em 24 a 48 horas. Dissertações e teses têm prazos planejados em conjunto com você para garantir total pontualidade antes da sua banca.</p>
         </div>
         <div class="glass-card p-6 rounded-2xl">
-          <h4 class="font-bold text-base mb-2 text-luxury-gold" data-pt="Como o material é enviado e corrigido?" data-en="How is the material sent and corrected?" data-es="¿Cómo se envía y corrige el material?" data-it="Come viene inviato e corretto il materiale?">Como o material é enviado e corrigido?</h4>
-          <p class="text-sm text-slate-300 leading-relaxed" data-pt="Você envia o arquivo digital (Word, PDF ou Google Docs) diretamente pelo WhatsApp. As correções podem ser enviadas com marcações e comentários explicativos para seu aprendizado." data-en="You send the digital file (Word, PDF or Google Docs) directly via WhatsApp. The corrections can be sent with markup and explanatory comments for your learning." data-es="Envías el archivo digital (Word, PDF o Google Docs) directamente por WhatsApp. Las correcciones pueden enviarse con marcas y comentarios explicativos para tu aprendizaje." data-it="Invii il file digitale (Word, PDF o Google Docs) direttamente su WhatsApp. Le correzioni possono essere inviate con annotazioni e commenti esplicativi per il tuo apprendimento.">Você envia o arquivo digital (Word, PDF ou Google Docs) diretamente pelo WhatsApp. As correções podem ser enviadas com marcações e comentários explicativos para seu aprendizado.</p>
+          <h4 class="font-bold text-base mb-2 text-luxury-gold">Como o material é enviado e corrigido?</h4>
+          <p class="text-sm text-slate-300 leading-relaxed">Você envia o arquivo digital (Word, PDF ou Google Docs) diretamente pelo WhatsApp. As correções podem ser enviadas com marcações e comentários explicativos para seu aprendizado.</p>
         </div>
         <div class="glass-card p-6 rounded-2xl">
-          <h4 class="font-bold text-base mb-2 text-luxury-gold" data-pt="Há garantia de sigilo absoluto?" data-en="Is absolute confidentiality guaranteed?" data-es="¿Hay garantía de sigilo absoluto?" data-it="C'è garanzia di riservatezza assoluta?">Há garantia de sigilo absoluto?</h4>
-          <p class="text-sm text-slate-300 leading-relaxed" data-pt="Absoluta. Seus trabalhos, ideias e manuscritos são tratados com estrita confidencialidade. Apenas você e a professora têm acesso ao conteúdo." data-en="Absolute. Your work, ideas and manuscripts are treated with strict confidentiality. Only you and the professor have access to the content." data-es="Absoluta. Tus trabajos, ideas y manuscritos se tratan con estricta confidencialidad. Solo tú y la profesora tienen acceso al contenido." data-it="Assoluta. I tuoi lavori, idee e manoscritti sono trattati con stretta riservatezza. Solo tu e la professoressa avete accesso al contenuto.">Absoluta. Seus trabalhos, ideias e manuscritos são tratados com estrita confidencialidade. Apenas você e a professora têm acesso ao conteúdo.</p>
+          <h4 class="font-bold text-base mb-2 text-luxury-gold">Há garantia de sigilo absoluto?</h4>
+          <p class="text-sm text-slate-300 leading-relaxed">Absoluta. Seus trabalhos, ideias e manuscritos são tratados com estrita confidencialidade. Apenas você e a professora têm acesso ao conteúdo.</p>
         </div>
       </div>
     </div>
@@ -596,11 +575,11 @@
   <!-- CTA FINAL -->
   <section class="py-24 bg-gradient-to-t from-luxury-900 to-luxury-950 border-t border-luxury-gold/20 text-center relative overflow-hidden">
     <div class="max-w-4xl mx-auto px-6 relative z-10">
-      <span class="text-xs font-semibold text-luxury-gold tracking-widest uppercase mb-4 block" data-pt="Atendimento Exclusivo" data-en="Exclusive Service" data-es="Atención Exclusiva" data-it="Servizio Esclusivo">Atendimento Exclusivo</span>
-      <h2 class="font-serif text-3xl sm:text-5xl font-bold mb-6" data-pt="Pronta para destravar sua escrita e alcançar o sucesso?" data-en="Ready to unblock your writing and reach success?" data-es="¿Lista para desbloquear tu escritura y alcanzar el éxito?" data-it="Pronta a sbloccare la tua scrittura e raggiungere il successo?">Pronta para destravar sua escrita e alcançar o sucesso?</h2>
-      <p class="text-slate-300 text-base sm:text-lg mb-10 max-w-2xl mx-auto" data-pt="Chame agora mesmo no WhatsApp para tirar suas dúvidas e receber seu orçamento personalizado sem compromisso." data-en="Message me on WhatsApp right now to ask questions and receive your personalized quote with no commitment." data-es="Escríbeme ahora mismo por WhatsApp para resolver tus dudas y recibir tu presupuesto personalizado sin compromiso." data-it="Scrivimi subito su WhatsApp per chiarire i tuoi dubbi e ricevere il tuo preventivo personalizzato senza impegno.">Chame agora mesmo no WhatsApp para tirar suas dúvidas e receber seu orçamento personalizado sem compromisso.</p>
+      <span class="text-xs font-semibold text-luxury-gold tracking-widest uppercase mb-4 block">Atendimento Exclusivo</span>
+      <h2 class="font-serif text-3xl sm:text-5xl font-bold mb-6">Pronta para destravar sua escrita e alcançar o sucesso?</h2>
+      <p class="text-slate-300 text-base sm:text-lg mb-10 max-w-2xl mx-auto">Chame agora mesmo no WhatsApp para tirar suas dúvidas e receber seu orçamento personalizado sem compromisso.</p>
 
-      <a href="https://wa.me/5533998617717?text=Ol%C3%A1%20Professora%20Jussara,%20quero%20falar%20diretamente%20com%20voc%C3%AA%20sobre%20meu%20projeto." target="_blank" rel="noopener" class="inline-flex items-center justify-center px-10 py-5 rounded-2xl font-bold text-sm tracking-wider uppercase gold-btn shadow-2xl" data-pt="Conversar com a Professora Jussara no WhatsApp" data-en="Talk to Professor Jussara on WhatsApp" data-es="Conversar con la Profesora Jussara por WhatsApp" data-it="Parla con la Professoressa Jussara su WhatsApp">Conversar com a Professora Jussara no WhatsApp</a>
+      <a href="https://wa.me/5533998617717?text=Ol%C3%A1%20Professora%20Jussara,%20quero%20falar%20diretamente%20com%20voc%C3%AA%20sobre%20meu%20projeto." target="_blank" rel="noopener" class="inline-flex items-center justify-center px-10 py-5 rounded-2xl font-bold text-sm tracking-wider uppercase gold-btn shadow-2xl">Conversar com a Professora Jussara no WhatsApp</a>
     </div>
   </section>
 
@@ -612,19 +591,18 @@
           <path stroke-linecap="round" stroke-linejoin="round" d="M4.5 15.75l7.5-7.5 7.5 7.5"/>
         </svg>
       </span>
-      <span class="back-to-top-label text-[10px] tracking-[0.3em] uppercase text-luxury-gold/70 font-semibold" data-pt="Voltar ao topo" data-en="Back to top" data-es="Volver arriba" data-it="Torna in alto">Voltar ao topo</span>
+      <span class="back-to-top-label text-[10px] tracking-[0.3em] uppercase text-luxury-gold/70 font-semibold">Voltar ao topo</span>
     </button>
   </section>
 
   <!-- FOOTER -->
   <footer class="bg-luxury-950 py-10 border-t border-white/5 text-center text-xs text-slate-500">
     <div class="max-w-7xl mx-auto px-6 flex flex-col sm:flex-row items-center justify-between gap-6">
-      <p>&copy; <span id="year"></span> Professora Jussara Soares. <span data-pt="Todos os direitos reservados." data-en="All rights reserved." data-es="Todos los derechos reservados." data-it="Tutti i diritti riservati.">Todos os direitos reservados.</span></p>
+      <p>&copy; <span id="year">2026</span> Professora Jussara Soares. Todos os direitos reservados.</p>
       <div class="flex gap-6 flex-wrap justify-center">
-        <span data-pt="Belo Horizonte, MG · Atendimento Mundial Online" data-en="Belo Horizonte, Brazil · Worldwide Online Service" data-es="Belo Horizonte, Brasil · Atención Mundial Online" data-it="Belo Horizonte, Brasile · Servizio Mondiale Online">Belo Horizonte, MG · Atendimento Mundial Online</span>
+        <span>Belo Horizonte, MG · Atendimento Mundial Online</span>
       </div>
     </div>
-    <div id="google_translate_element" class="mt-6 flex justify-center"></div>
   </footer>
 
   <!-- WHATSAPP FLUTUANTE -->
@@ -632,19 +610,9 @@
     <svg class="w-7 h-7" fill="currentColor" viewBox="0 0 24 24"><path d="M19.05 4.91A9.82 9.82 0 0 0 12.04 2c-5.46 0-9.91 4.45-9.91 9.91 0 1.75.46 3.45 1.32 4.95L2.05 22l5.25-1.38a9.9 9.9 0 0 0 4.74 1.21h.01c5.46 0 9.91-4.45 9.91-9.91 0-2.65-1.03-5.14-2.91-7.01zM12.04 20.15h-.01a8.23 8.23 0 0 1-4.19-1.15l-.3-.18-3.12.82.83-3.04-.2-.31a8.2 8.2 0 0 1-1.26-4.38c0-4.54 3.7-8.24 8.25-8.24 2.2 0 4.27.86 5.83 2.42a8.18 8.18 0 0 1 2.41 5.83c0 4.54-3.7 8.23-8.24 8.23zm4.52-6.16c-.25-.12-1.47-.72-1.69-.81-.23-.08-.39-.12-.56.13-.17.25-.64.81-.79.97-.14.17-.29.19-.54.06-.25-.12-1.05-.39-1.99-1.23-.74-.66-1.23-1.47-1.38-1.72-.14-.25-.02-.38.11-.51.11-.11.25-.29.37-.44.12-.14.17-.25.25-.41.08-.17.04-.31-.02-.44-.06-.12-.56-1.35-.77-1.85-.2-.48-.41-.42-.56-.43-.14-.01-.31-.01-.48-.01-.17 0-.44.06-.67.31-.23.25-.87.85-.87 2.07 0 1.22.89 2.4 1.02 2.56.12.17 1.75 2.67 4.24 3.74.59.26 1.06.41 1.42.52.6.19 1.14.16 1.57.1.48-.07 1.47-.6 1.68-1.18.21-.58.21-1.08.14-1.18-.06-.11-.22-.17-.47-.29z"/></svg>
   </a>
 
-  <script src="script.js"></script>
-
   <script>
-  function googleTranslateElementInit() {
-    new google.translate.TranslateElement({
-      pageLanguage: 'pt',
-      includedLanguages: 'fr,de,ar,zh-CN,ja,ru,hi,nl,pl,sv,tr,ko',
-      layout: google.translate.TranslateElement.InlineLayout.SIMPLE,
-      autoDisplay: false
-    }, 'google_translate_element');
-  }
+    document.getElementById('year').textContent = new Date().getFullYear();
   </script>
-  <script src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit" async></script>
 
 </body>
 </html>
